@@ -1,0 +1,31 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Login</title>
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="__PUBLIC__/css/styles.css" rel="stylesheet" media="screen">
+     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body id="login">
+    <div class="container">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading">登录</h2>
+        <input type="text" class="input-block-level" placeholder="用户名">
+        <input type="password" class="input-block-level" placeholder="密码">
+        <!-- <button class="btn btn-large btn-primary" type="submit">登 录</button> -->
+        <a href="/Index" class="btn btn-block btn-large btn-primary" type="submit">登 录</a>
+      </form>
+
+    </div> <!-- /container -->
+    <script src="__PUBLIC__/js/angular/json2.js"></script>
+       <script src="__PUBLIC__/js/angular/service.js"></script>
+       <script src="__PUBLIC__/js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="widget-box">
+	<div class="widget-title">
+		<h3>
+			<span>添加产品</span>
+			<a class="btn pull-right" href="#/show"><i class="icon icon-list"></i> 产品展示</a>
+		</h3>
+	</div>
+	<div class="widget-content">
+		<form action="" ng-submit="newsAddObj.add()">
+			<label for="">产品名称</label>
+			<input type="text" class="span12">
+			<label for="">产品图片</label>
+			<div uploader id="" url="" type=""></div>
+			<p>
+				<button class="btn btn-primary">添加</button>
+			</p>
+		</form>
+	</div>
+</div>
